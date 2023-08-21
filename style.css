@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100%;
+}
+
+.container{
+    height:50vh;
+    width:50%;
+    background-color: rgb(39, 39, 39,0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+}
+
+.search-box {
+    color:white;
+    width:80%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 10px;
+}
+
+.search-box input{
+    width:90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color:white;
+}
+
+.city{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.temp{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    height:2rem;
+}
+
+
+.temp img{
+    height:2rem;
+    width:2rem;
+    margin-right: 1rem;
+    transform: scale(2);
+}
+
+.description{
+    color:white;
+    font-size:1rem;
+}
+
+.speedData{
+    color:white;
+    font-size:1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+}
+
+.icon-speed{
+    height:1.5rem;
+    width:1.5rem;
+    margin-right: 1rem;
+}
+
+.icon-speed img{
+    height:100%;
+    width:100%;
+}
+
+.speed{
+    color:white;
+}
+
+.humidity{
+    color:white;
+    font-size:1.5rem;
+    display: flex;
+    justify-content: center;
+    width:50%;
+}
